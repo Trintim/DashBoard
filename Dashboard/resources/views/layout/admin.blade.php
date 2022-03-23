@@ -4,9 +4,9 @@
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
-            <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+            <link rel="icon" type="image/png" href="../assets/img/logodig.png">
             <title>
-                Material Dashboard 2 by Creative Tim
+                Trintim DashBoard
             </title>
             <!--     Fonts and icons     -->
             <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
@@ -27,7 +27,7 @@
                 <div class="sidenav-header">
                     <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
                     <a class="navbar-brand m-0" href=" https://demos.creative-tim.com/material-dashboard/pages/dashboard " target="_blank">
-                        <img src="../assets/img/logo-ct.png" class="navbar-brand-img h-100" alt="main_logo">
+                        <img src="../assets/img/logodig.png" class="navbar-brand-img h-100" alt="main_logo">
                         <span class="ms-1 font-weight-bold text-white">Controle Administrativo</span>
                     </a>
                 </div>
@@ -101,13 +101,7 @@
                             <h6 class="font-weight-bolder mb-0">Dashboard</h6>
                         </nav>
                         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
-                            <hr class="horizontal dark my-3">
-                            <div class="mt-2 d-flex">
-                                <h6 class="mb-0">Light / Dark</h6>
-                                <div class="form-check form-switch ps-0 ms-auto my-auto">
-                                    <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
-                                </div>
-                            </div>
+                            
                             <div class="ms-md-auto pe-md-3 d-flex align-items-center">
                                 <div class="input-group input-group-outline">
                                     <label class="form-label">Pesquise por...</label>
@@ -121,7 +115,12 @@
                                         <span class="d-sm-inline d-none">Login</span>
                                     </a>
                                 </li>
-                                <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
+                                <li class="nav-item px-3 d-flex align-items-center">
+                                    <a href="javascript:;" class="nav-link text-body p-0">
+                                        <i class="fa fa-cog fixed-plugin-button-nav cursor-pointer"></i>
+                                    </a>
+                                </li> 
+                                <!-- <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
                                     <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
                                         <div class="sidenav-toggler-inner">
                                             <i class="sidenav-toggler-line"></i>
@@ -129,37 +128,7 @@
                                             <i class="sidenav-toggler-line"></i>
                                         </div>
                                     </a>
-                                </li>
-                                <li class="nav-item px-3 d-flex align-items-center">
-                                    <a href="javascript:;" class="nav-link text-body p-0">
-                                        <i class="fa fa-cog fixed-plugin-button-nav cursor-pointer"></i>
-                                    </a>
-                                </li>
-                                <li class="nav-item dropdown pe-2 d-flex align-items-center">
-                                    <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i class="fa fa-bell cursor-pointer"></i>
-                                    </a>
-                                    <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton">
-                                        <li class="mb-2">
-                                            <a class="dropdown-item border-radius-md" href="javascript:;">
-                                                <div class="d-flex py-1">
-                                                    <div class="my-auto">
-                                                        <img src="../assets/img/team-2.jpg" class="avatar avatar-sm  me-3 ">
-                                                    </div>
-                                                    <div class="d-flex flex-column justify-content-center">
-                                                        <h6 class="text-sm font-weight-normal mb-1">
-                                                            <span class="font-weight-bold">Nova Mensagem</span> De Victor
-                                                        </h6>
-                                                        <p class="text-xs text-secondary mb-0">
-                                                            <i class="fa fa-clock me-1"></i>
-                                                            13 minutos atrás
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </div>
@@ -200,31 +169,6 @@
                     </div>
                 </footer>
             </main>
-
-            <div class="fixed-plugin">
-                <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
-                    <i class="material-icons py-2">settings</i>
-                </a>
-                <div class="card shadow-lg">
-                    <hr class="horizontal dark my-1">
-                    <div class="card-body pt-sm-3 pt-0">
-                        <div class="mt-3 d-flex">
-                            <h6 class="mb-0">Navbar Fixed</h6>
-                            <div class="form-check form-switch ps-0 ms-auto my-auto">
-                                <input class="form-check-input mt-1 ms-auto" type="checkbox" id="navbarFixed" onclick="navbarFixed(this)">
-                            </div>
-                        </div>
-                        <hr class="horizontal dark my-3">
-                        <div class="mt-2 d-flex">
-                            <h6 class="mb-0">Light / Dark</h6>
-                            <div class="form-check form-switch ps-0 ms-auto my-auto">
-                                <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
-                            </div>
-                        </div>
-                        <hr class="horizontal dark my-sm-4">
-                    </div>
-                </div>
-            </div>
 
             <script src="../assets/js/core/popper.min.js"></script>
             <script src="../assets/js/core/bootstrap.min.js"></script>
